@@ -1,0 +1,88 @@
+.Tabwidget{
+    background-color: #363C43;
+    height: 316px;
+    width: 720px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 18.89px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    height: 175px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.tabquestion{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.tabs-card{
+    width: 597px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    border-radius: 23px;
+    border: 0px;
+}
+
+.activebutton{
+    background-color: #4A4E54;
+    border: 0px;
+    border-radius: 16px;
+    height: 49px;
+    width: 195px;
+    color: #ffffff;
+    padding: 10px, 24px, 10px, 24px  ;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.35); 
+    transition: background-color 0.3s
+}
+
+
+.non-activebutton{
+    background-color: #171717;
+    border: 0px;
+    height: 49px;
+    width: 195px;
+    color: #A3ADB2;
+    padding: 10px, 24px, 10px, 24px  ;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+.squares{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.content{
+    height: 175px;
+    width: 611px;
+}
+
+.contentpara{
+    color: #969696    ;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+}
